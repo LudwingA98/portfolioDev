@@ -1,0 +1,21 @@
+body{
+    background-color: blue;
+}
+
+#app{
+    text-align: center;
+}
+
+#app, h2{
+    font-size: 50px;
+    color: red;
+}
+
+#app p{
+    font-size: 25px;
+    color: white;
+}
+
+img{
+    width: 300px;
+}

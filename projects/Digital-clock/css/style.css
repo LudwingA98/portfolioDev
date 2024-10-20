@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: bisque;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+}
+
+.container, .date .clock{
+    margin: auto;
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widget{
+    width: 30%;
+    margin: 1em;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.3125rem;
+    background-color:darkgrey;
+    padding: 15px;
+    width: 100%;
+}
+
+.clock{
+    background-color: darkgrey;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.clock .box-seconds{
+    display: inline-block;
+}
+
+.clock .seconds, .clock .ampm{
+    font-size: 2rem;
+    display: inline-block;
+}
